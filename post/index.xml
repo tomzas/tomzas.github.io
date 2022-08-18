@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Coding log</title>
+    <link>https://tomzas.github.io/post/</link>
+    <description>Recent content in Posts on Coding log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2022 20:51:59 +0200</lastBuildDate><atom:link href="https://tomzas.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Idea to name the posts</title>
+      <link>https://tomzas.github.io/post/1/</link>
+      <pubDate>Mon, 04 Jul 2022 20:51:59 +0200</pubDate>
+      
+      <guid>https://tomzas.github.io/post/1/</guid>
+      <description>How to name the files of the posts? I found a nice way to name the files of the posts for the blog.
+This is not the title of the post, the title is a field in the Markdown file.
+Initially I was using some sort of shortened title for the file name.
+I came across the blog post Write Code Like You Just Learned How to Program.
+I don&amp;rsquo;t think the post got to me, but I found the answer to my problem for the post file names.</description>
+    </item>
+    
+  </channel>
+</rss>
