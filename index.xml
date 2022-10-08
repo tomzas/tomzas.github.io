@@ -6,7 +6,20 @@
     <description>Recent content on Coding log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jul 2022 20:51:59 +0200</lastBuildDate><atom:link href="https://tomzas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Oct 2022 15:09:56 +0200</lastBuildDate><atom:link href="https://tomzas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rancher Desktop</title>
+      <link>https://tomzas.github.io/post/2/</link>
+      <pubDate>Wed, 05 Oct 2022 15:09:56 +0200</pubDate>
+      
+      <guid>https://tomzas.github.io/post/2/</guid>
+      <description>On Mac Docker for Desktop was the easy way to run development containers. With the license change, it&amp;rsquo;s no longer free for commercial use.
+There is a good alternative:
+Rancher Desktop.
+Website: https://rancherdesktop.io/
+By default Rancher Desktop is using the container runtime containerd, with which it recommends to use nerdctl. The nerdctl doesn&amp;rsquo;t support MacOS. The way Rancher makes it work is that it runs the nerdctl inside the VM that it spins up and command line tool is a wrapper script.</description>
+    </item>
+    
     <item>
       <title>Idea to name the posts</title>
       <link>https://tomzas.github.io/post/1/</link>

@@ -3,8 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>404 Page not found &middot; </title>
-        <meta name="description" content="">
+        <title>Rancher Desktop &middot; </title>
+        <meta name="description" content="On Mac Docker for Desktop was the easy way to run development containers. With the license change, it&rsquo;s no longer free for commercial use.
+There is a good alternative:
+Rancher Desktop.
+Website: https://rancherdesktop.io/
+By default Rancher Desktop is using the container runtime containerd, with which it recommends to use nerdctl. The nerdctl doesn&rsquo;t support MacOS. The way Rancher makes it work is that it runs the nerdctl inside the VM that it spins up and command line tool is a wrapper script.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.104.3" />
@@ -55,9 +59,46 @@
 
 
 <div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Rancher Desktop</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2022-10-05" itemprop="datePublished">Wed, Oct 5, 2022</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author"></a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
     
 
-    <p class="error">Oh, this page does not exist. You can head back to <a href="https://tomzas.github.io/">homepage</a>.</p>
+    <p>On Mac Docker for Desktop was the easy way to run development containers. With the license change,
+it&rsquo;s no longer free for commercial use.</p>
+<p>There is a good alternative:</p>
+<p>Rancher Desktop.</p>
+<p>Website: <a href="https://rancherdesktop.io/">https://rancherdesktop.io/</a></p>
+<p>By default Rancher Desktop is using the container runtime <code>containerd</code>, with which it recommends to
+use nerdctl. The nerdctl doesn&rsquo;t support MacOS. The way Rancher makes it work is that it runs the nerdctl
+inside the VM that it spins up and command line tool is a wrapper script.</p>
+<p>VS Code on the other hand is using docker containers for devcontainers.</p>
+<p>Fortunately, Rancher Desktop allows to change the container runtime to docker (project mody) and it&rsquo;s
+possible to use docker-cli as before.</p>
+<p>The VS Code devcontainers work as well.</p>
+
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+    </div>
+</footer>
+
+        
+    </article>
 </div>
 
             </div>
